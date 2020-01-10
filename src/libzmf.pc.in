@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+                                                                       
+Name: libzmf-@ZMF_MAJOR_VERSION@.@ZMF_MINOR_VERSION@
+Description: Library for importing and converting Zoner Draw drawings
+Version: @VERSION@
+Requires: librevenge-0.0
+Libs: -L${libdir} -lzmf-@ZMF_MAJOR_VERSION@.@ZMF_MINOR_VERSION@
+Cflags: -I${includedir}/libzmf-@ZMF_MAJOR_VERSION@.@ZMF_MINOR_VERSION@

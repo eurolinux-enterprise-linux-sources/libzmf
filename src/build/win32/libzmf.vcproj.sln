@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libzmf", "libzmf.vcproj", "{304C3798-BE3F-4297-92EE-F02E582A35EF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zmf2svg", "zmf2svg.vcproj", "{50D0971A-33D8-4279-843C-2A662B575D58}"
+	ProjectSection(ProjectDependencies) = postProject
+		{304C3798-BE3F-4297-92EE-F02E582A35EF} = {304C3798-BE3F-4297-92EE-F02E582A35EF}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zmf2raw", "zmf2raw.vcproj", "{EAEB8314-3ABC-4090-B607-8E25CEE5289B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{304C3798-BE3F-4297-92EE-F02E582A35EF} = {304C3798-BE3F-4297-92EE-F02E582A35EF}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{304C3798-BE3F-4297-92EE-F02E582A35EF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{304C3798-BE3F-4297-92EE-F02E582A35EF}.Debug|Win32.Build.0 = Debug|Win32
+		{304C3798-BE3F-4297-92EE-F02E582A35EF}.Release|Win32.ActiveCfg = Release|Win32
+		{304C3798-BE3F-4297-92EE-F02E582A35EF}.Release|Win32.Build.0 = Release|Win32
+		{50D0971A-33D8-4279-843C-2A662B575D58}.Debug|Win32.ActiveCfg = Debug|Win32
+		{50D0971A-33D8-4279-843C-2A662B575D58}.Debug|Win32.Build.0 = Debug|Win32
+		{50D0971A-33D8-4279-843C-2A662B575D58}.Release|Win32.ActiveCfg = Release|Win32
+		{50D0971A-33D8-4279-843C-2A662B575D58}.Release|Win32.Build.0 = Release|Win32
+		{EAEB8314-3ABC-4090-B607-8E25CEE5289B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EAEB8314-3ABC-4090-B607-8E25CEE5289B}.Debug|Win32.Build.0 = Debug|Win32
+		{EAEB8314-3ABC-4090-B607-8E25CEE5289B}.Release|Win32.ActiveCfg = Release|Win32
+		{EAEB8314-3ABC-4090-B607-8E25CEE5289B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
